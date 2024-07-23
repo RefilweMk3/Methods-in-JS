@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p><i>Hi there&#x1F970<br></i></p>
+  <p>I'M</p>
+  <p id="p1"></p>
+  <p id="p2"></p>
+  <p id="p3"></p>
+  <p id="p4"></p>
+  <script>
+    var name="Refilwe Kgwadi";
+    document.getElementById("p1").innerHTML=name.toUpperCase();
+
+
+    var day;
+    switch(new Date().getDay()){
+      case 0:
+        day="Sunday";
+        break;
+      case 1:
+        day="Monday";
+        break;
+      case 2:
+        day="Tuesday";
+        break;
+      case 3:
+        day="Wednesday";
+        break;
+      case 4:
+        day="Thursday";
+        break;
+      case 5:
+        day="Friday";
+        break;
+      case 6:
+        day="Saturday";
+    }
+    document.getElementById("p4").innerHTML="So today is "+day;
+
+  </script>
+  <p>So we where asked to guggle a random set of numbers for Tinu <br> so I chose 1-15</p>
+  <script>
+    for(i=1; i<=15;i++){
+      document.write(i+"<br>")
+    }
+  </script>
+</body>
+  
+</html>
